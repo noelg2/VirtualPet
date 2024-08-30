@@ -1,3 +1,5 @@
+void setup(){
+  size(400,400);
 }
 void draw()
 {
@@ -14,7 +16,6 @@ fill(115,195,108);
 arc(215,240,170,50, -.5, PI+QUARTER_PI, CHORD);
 //legs
 fill(35,120,65);
-size(400,400);
 stroke(35,120,65);
 rect(275,240, 15, 40);
 rect(160,240, 15, 40);
