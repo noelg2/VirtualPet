@@ -1,8 +1,8 @@
 }
 void draw()
 {
-background(0,20,200);
-fill(150,75,0);
+background(173,216,230);
+fill(88,57,39);
 rect(0,281,400,150);
 //legs
 fill(35,120,65);
@@ -12,9 +12,9 @@ rect(250,250, 15, 30);
 stroke(0,0,0);
 fill(115,195,108);
 arc(215,240,170,50, -.5, PI+QUARTER_PI, CHORD);
-fill(#16A557);
-size(400,400);
 //legs
+fill(35,120,65);
+size(400,400);
 stroke(35,120,65);
 rect(275,240, 15, 40);
 rect(160,240, 15, 40);
